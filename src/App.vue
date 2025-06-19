@@ -1,15 +1,9 @@
-<script setup>
-// import { RouterLink, RouterView } from 'vue-router'
-import Home from 'src/views/Home.vue';
-
-</script>
-
 <template>
-
-  <Home />
-  <RouterView />
+  <div class="min-h-screen bg-gray-900 text-white font-sans">
+    <Home />
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<script setup>
+import Home from './views/Home.vue'
+</script>
