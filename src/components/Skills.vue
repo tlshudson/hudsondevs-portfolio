@@ -34,10 +34,10 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden  text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs dark:bg-neutral-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>JavaScript</li>
@@ -585,11 +585,11 @@
           </div>
         </ul>
       </div>
-        <div>
-          <h3 class="text-xl font-semibold text-indigo-400 mb-2">Outras Ferramentas e Habilidades</h3>
-          <ul class="space-y-1">
-            <li>WordPress (Temas, Plugins, CPTs)</li>
-            <div class="mt-2 flex items-center gap-x-1">
+      <div>
+        <h3 class="text-xl font-semibold text-indigo-400 mb-2">Outras Ferramentas e Habilidades</h3>
+        <ul class="space-y-1">
+          <li>WordPress (Temas, Plugins, CPTs)</li>
+          <div class="mt-2 flex items-center gap-x-1">
             <div
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
@@ -621,8 +621,8 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-            <li>Swagger / Postman (Documentação e Testes de API)</li>
-            <div class="mt-2 flex items-center gap-x-1">
+          <li>Swagger / Postman (Documentação e Testes de API)</li>
+          <div class="mt-2 flex items-center gap-x-1">
             <div
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
@@ -654,8 +654,8 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-            <li>Jira / Trello (Kanban, Scrum)</li>
-            <div class="mt-2 flex items-center gap-x-1">
+          <li>Jira / Trello (Kanban, Scrum)</li>
+          <div class="mt-2 flex items-center gap-x-1">
             <div
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
@@ -687,8 +687,8 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-            <li>Linux (bash, permissão, cron)</li>
-            <div class="mt-2 flex items-center gap-x-1">
+          <li>Linux (bash, permissão, cron)</li>
+          <div class="mt-2 flex items-center gap-x-1">
             <div
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
@@ -720,8 +720,8 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          </ul>
-        </div>
+        </ul>
+      </div>
     </div>
   </section>
 </template>

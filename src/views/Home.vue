@@ -17,8 +17,7 @@
             Hudson <span class="text-indigo-300">Teles</span>
           </h2>
           <p class="text-gray-200 text-base md:text-lg leading-relaxed">
-            Olá! Eu sou um desenvolvedor apaixonado por transformar ideias em soluções digitais funcionais.
-            Tenho experiência com desenvolvimento web, interfaces modernas e aplicações interativas.
+            Full-Stack Developer | Laravel & Vue.js Expert | Node.js Enthusiast | Oracle Cloud Professional | Agile/Scrum
           </p>
         </div>
 
