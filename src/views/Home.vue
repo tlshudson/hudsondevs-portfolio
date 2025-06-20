@@ -43,7 +43,7 @@
 
         <!-- BOTÕES DE AÇÃO -->
         <div class="flex flex-wrap justify-center gap-4 mt-4">
-          <a href="src/assets/Curriculum_HudsonTeles_Tecnologia.pdf" download
+          <a href="Curriculum_HudsonTeles_Tecnologia.pdf" download
             class="flex items-center gap-2 bg-white text-indigo-700 font-semibold px-4 py-2 rounded hover:bg-gray-100">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
               <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v10a1 1 0 01-1 1H6l-3 3V4z" />
