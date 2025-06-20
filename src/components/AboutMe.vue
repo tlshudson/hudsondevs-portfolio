@@ -7,7 +7,7 @@
     </p>
 
     <div class="flex flex-wrap gap-4 mt-4">
-      <a href="/curriculo.pdf" download class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+      <a href="src/assets/Curriculum_HudsonTeles_Tecnologia.pdf" download class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
         Baixar Currículo
       </a>
       <a href="#contact" class="bg-transparent border border-indigo-400 text-indigo-400 px-4 py-2 rounded hover:bg-indigo-900">
