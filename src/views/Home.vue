@@ -67,8 +67,7 @@
     <Skills />
     <ExperienceEducation />
     <Projects />
-    <Curriculum />
-    <Contact />
+    <ContactMe />
   </div>
 </template>
 
@@ -77,7 +76,6 @@ import AboutMe from '@/components/AboutMe.vue'
 import Skills from '@/components/Skills.vue'
 import ExperienceEducation from '@/components/ExperienceEducation.vue'
 import Projects from '@/components/Projects.vue'
-import Curriculum from '@/components/Curriculum.vue'
-import Contact from '@/components/Contact.vue'
+import ContactMe from '@/components/ContactMe.vue'
 import MatrixRain from '@/components/MatrixRain.vue'
 </script>

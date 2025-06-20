@@ -2,7 +2,7 @@
     <section class="relative bg-gray-800 p-6 rounded-2xl shadow-lg overflow-hidden">
 
     <div class="relative z-10 p-6 md:p-10 text-white">
-      <h2 class="text-3xl font-bold mb-6">Sobre mim</h2>
+      <h2 class="text-3xl font-bold text-white mb-8 text-center">Quem sou Eu?</h2>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-indigo-100">
         <!-- TEXTO -->

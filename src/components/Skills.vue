@@ -1,6 +1,6 @@
 <template>
   <section class="bg-gray-800 p-6 rounded-2xl shadow-lg">
-    <h2 class="text-3xl font-bold text-white mb-6">Tech Stack</h2>
+    <h2 class="text-3xl font-bold text-white mb-6 text-center">Tech Stack</h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-300">
 
