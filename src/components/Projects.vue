@@ -34,7 +34,7 @@ export default {
         },
         {
           title: 'RoyalPark - Finalizado',
-          description: 'Interface frontend para o sistema de controle de estoque SEG Estoque, desenvolvida em Vue 3 com Vite.',
+          description: 'Este projeto é uma página de apresentação para um empreendimento comercial, com foco em layout moderno e responsivo.',
           cover: '/royalpark.png',
           link: 'https://github.com/tlshudson/royal_park'
         },
