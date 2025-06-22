@@ -3,7 +3,6 @@
     <h2 class="text-3xl font-bold text-white mb-8 text-center">Experiência & Educação</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-300">
-
       <!-- EXPERIÊNCIA PROFISSIONAL -->
       <div>
         <h3 class="text-2xl font-semibold text-indigo-400 mb-4 flex items-center gap-2">
@@ -14,42 +13,91 @@
         </h3>
         <ul class="space-y-4">
           <li>
-            <div class="font-semibold">Desenvolvedor Junior Full Stack · Grupo Simão Sarkis</div>
+            <div><strong class="text-white">Desenvolvedor Junior Full Stack · Grupo Simão Sarkis</strong></div>
             <div class="text-sm text-gray-400">Out 2024 – Atual · Presencial</div>
-            <div class="text-sm mt-1">Atuo na manutenção, sugestão e desenvolvimento de sistemas internos voltados ao
-              setor hoteleiro, atendendo áreas como Compras, Contabilidade, Financeiro, Almoxarifado, Departamento
-              Pessoal e Recursos Humanos. Com foco em usabilidade, desempenho e clareza de código, entrego soluções que
-              otimizam rotinas internas.Tecnologias Utilizadas: <br>
-              <strong class="text-white">Front-end: Vue.js, JavaScript, Tailwind CSS, Pinia (Vuex), Axios, integração
-                com APIs REST (Java), documentadas via Swagger.
-                Banco de Dados: Oracle Database, com foco em consultas SQL otimizadas, criação de views e análise de
-                dados
-                em PL/SQL, além de uso da Oracle Cloud Infrastructure (OCI) para gestão de banco e recursos.</strong>
+            <div class="text-sm mt-2">
+              Responsável pela manutenção, evolução e desenvolvimento de sistemas internos para o setor hoteleiro,
+              atendendo áreas como Compras, Financeiro, RH e Contabilidade. Foco em usabilidade, performance e
+              organização de código, com entregas que otimizam rotinas operacionais.
+            </div>
+
+            <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" class="w-6 h-6"
+                  alt="Vue.js">
+                <span class="text-sm text-white">Vue.js · Front-end reativo</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  class="w-6 h-6" alt="JavaScript">
+                <span class="text-sm text-white">JavaScript · Lógica e interações</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                  class="w-6 h-6" alt="Tailwind CSS">
+                <span class="text-sm text-white">Tailwind CSS · Estilização rápida</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="w-6 h-6"
+                  alt="Java">
+                <span class="text-sm text-white">APIs REST (Java) · Backend</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" class="w-6 h-6"
+                  alt="Oracle">
+                <span class="text-sm text-white">Oracle DB · PL/SQL, Views</span>
+              </div>
             </div>
           </li>
+          <br>
           <li>
-            <div class="font-semibold">Estagiário em Desenvolvimento Web Full Stack · LS Tecnologia</div>
+            <div><strong class="text-white">Estagiário em Desenvolvimento Web Full Stack · LS Tecnologia</strong></div>
             <div class="text-sm text-gray-400">Out 2024 – Jan 2025 · Bahia, Remoto</div>
             <div class="text-sm mt-1">Atuação no desenvolvimento web de um sistema ERP voltado à Controladoria
-              Hospitalar, em arquitetura multisserviços/microserviços. Responsável por: <br>
-              <strong class="text-white">Desenvolvimento de funcionalidades full stack em ambiente SaaS utilizando
-                Laravel (back-end) e Vue.js
-                (front-end); Criação de componentes reutilizáveis no front-end e integração com APIs RESTful;
-                Implementação de endpoints, regras de negócio e operações complexas em PostgreSQL;
-                Integração e comunicação entre serviços independentes em ambiente distribuído;
-                Adoção de metodologia ágil (Scrum) com gestão de tarefas via JIRA, participação em sprints, planning e
-                dailies via Slack; </strong>
+              Hospitalar, em arquitetura multisserviços/microserviços.</div>
+            <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+                  class="w-6 h-6" alt="Laravel">
+                <span class="text-sm text-white">Laravel · Endpoints e regras de negócio</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" class="w-6 h-6"
+                  alt="Vue.js">
+                <span class="text-sm text-white">Vue.js · Componentes reutilizáveis</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                  class="w-6 h-6" alt="PostgreSQL">
+                <span class="text-sm text-white">PostgreSQL · Consultas e operações complexas</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-6 h-6"
+                  alt="Git">
+                <span class="text-sm text-white">Integração entre microsserviços distribuídos</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" class="w-6 h-6"
+                  alt="Slack">
+                <span class="text-sm text-white">Slack · Daily e comunicação</span>
+              </div>
+              <div class="flex items-center space-x-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg"
+                  alt="JIRA" class="w-6 h-6">
+                <span class="text-sm text-white">JIRA · Gestão ágil de tarefas e acompanhamento de sprints</span>
+              </div>
             </div>
           </li>
           <li>
-            <div class="font-semibold">Suporte Técnico em TI N1 · Grupo Simão Sarkis</div>
+            <div><strong class="text-white">Suporte Técnico em TI N1 · Grupo Simão Sarkis</strong></div>
             <div class="text-sm text-gray-400">Jun 2024 – Out 2024 · Brasília - DF, Presencial</div>
             <div class="text-sm mt-1">Help Desk T.I, atuando via chamados para realizar o suporte técnico de T.I
               necessário para toda a empresa.
             </div>
           </li>
           <li>
-            <div class="font-semibold">Assistente de Operações · Winner Recursos Humanos - <strong>Amazon</strong></div>
+            <div><strong class="text-white">Assistente de Operações · Winner Recursos Humanos - Amazon</strong></div>
             <div class="text-sm text-gray-400">Abr 2023 – Jun 2023 · Brasília - DF, Presencial</div>
             <div class="text-sm mt-1">Auxiliar de Operações prestando serviços temporários para a Id-Logística/AMAZON.
               Treinamento no setor de logística.
@@ -68,18 +116,45 @@
         </h3>
         <ul class="space-y-4">
           <li>
-            <div class="font-semibold">Curso Superior de Tecnologia (CST) Análise e Desenvolvimento de Sistemas </div>
+            <div><strong class="text-white">Curso Superior de Tecnologia (CST) Análise e
+                Desenvolvimento de Sistemas</strong></div>
             <div class="text-sm text-gray-400">Universidade Paulista - UNIP · 2022 – 2024</div>
-            <div class="text-sm mt-1">Estudos práticos em segurança da informação, arquitetura de dados e machine
-              learning aplicados em projetos multidisciplinares. Desenvolvimento de aplicações móveis com foco em
-              experiência do usuário (UX/UI).
-              Graduação focada em Desenvolvimento de software, com sólida base em lógica de programação, engenharia de
-              dados e tecnologias emergentes.</div>
+            <div class="text-sm mt-1">Formação com ênfase em Desenvolvimento de Software, unindo fundamentos sólidos de
+              lógica de programação, engenharia de dados e tecnologias emergentes. Atuação em projetos
+              multidisciplinares com aplicações práticas em segurança da informação, arquitetura de dados e machine
+              learning. Experiência no desenvolvimento de apps móveis, com foco em UX/UI..</div>
           </li>
           <li>
-            <div class="font-semibold">Formação Full Stack Developer</div>
-            <div class="text-sm text-gray-400">Rocketseat · 2023</div>
-            <div class="text-sm mt-1">Cursos avançados em JavaScript, Vue, Node.js e integração de APIs.</div>
+            <div><strong class="text-white">Pós-graduação Lato Sensu - Especialização -
+                Arquitetura e Desenvolvimento de Sistemas com ênfase em Padrões de Projeto</strong></div>
+            <div class="text-sm text-gray-400">Instituição GRAN · Jun 2025 - Cursando</div>
+            <div class="text-sm mt-1">A pós-graduação é voltada para que eu possa aprofundar meus conhecimentos em
+              design de software robusto, modular e reutilizável. Com uma abordagem prática e interdisciplinar, o curso
+              abrange temas fundamentais para a construção de soluções escaláveis, com foco na engenharia de software
+              moderna e boas práticas de arquitetura.
+            </div>
+          </li>
+          <li>
+            <div><strong class="text-white">Pós-graduação Lato Sensu - Desenvolvimento Full Stack e Cloud
+                Computing</strong></div>
+            <div class="text-sm text-gray-400">Instituição GRAN · Jun 2025 - Cursando</div>
+            <div class="text-sm mt-1">A pós-graduação em Desenvolvimento Full Stack e Cloud Computing tem como foco, me
+              auxiliar a desenvolver sistemas robustos e escaláveis utilizando as melhores práticas do mercado e
+              tecnologias modernas em nuvem. A metodologia do curso é baseada em resolução de problemas reais, com forte
+              integração entre teoria e prática.
+            </div>
+          </li>
+          <li>
+            <div><strong class="text-white">Ensino Médio Profissionalizante (Pós-médio)</strong></div>
+            <div class="text-sm text-gray-400">Centro de Ensino Médio Integrado do Gama (CEMI) · Jun 2019 - Jun 2021</div>
+            <div class="text-sm mt-1">Formação técnica com ênfase em desenvolvimento de software e fundamentos de infraestrutura. O curso abordou conceitos e práticas essenciais para a atuação na área de TI.
+            </div>
+          </li>
+          <li>
+            <div><strong class="text-white">Graduação em Língua Espanhola</strong></div>
+            <div class="text-sm text-gray-400">Centro Interescolar de Línguas (CIL) · Mar 2021 - Jun 2022</div>
+            <div class="text-sm mt-1">Língua Espanhola e Literaturas de Língua Espanhola
+            </div>
           </li>
         </ul>
       </div>

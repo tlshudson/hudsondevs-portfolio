@@ -40,7 +40,7 @@ export default {
         if (y > canvas.height && Math.random() > 0.995) {
           drops[i] = 0
         }
-        drops[i] += 0.3 // ← velocidade reduzida
+        drops[i] += 0.5 // ← velocidade reduzida
       }
 
       requestAnimationFrame(draw)

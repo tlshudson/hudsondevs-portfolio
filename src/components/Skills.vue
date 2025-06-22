@@ -70,7 +70,7 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>TypeScript</li>
@@ -97,13 +97,13 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>React</li>
@@ -121,22 +121,22 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </ul>
@@ -174,7 +174,7 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>PHP</li>
@@ -207,7 +207,7 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>Node.js</li>
@@ -234,13 +234,13 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>RESTful APIs & API versioning</li>
@@ -270,10 +270,10 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>Autenticação e Autorização (JWT, OAuth2)</li>
@@ -303,10 +303,10 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </ul>
@@ -338,13 +338,13 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>PostgreSQL (Views, Triggers, Functions)</li>
@@ -377,7 +377,7 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>SQLite</li>
@@ -395,22 +395,22 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>MySQL / MariaDB</li>
@@ -434,16 +434,16 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </ul>
@@ -475,13 +475,13 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>Git & GitHub (Fluxo Git Flow, GitHub Actions)</li>
@@ -514,7 +514,7 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>CI/CD (GitHub Actions, GitLab CI, Jenkins)</li>
@@ -547,7 +547,7 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>Nginx / Apache</li>
@@ -574,13 +574,13 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </ul>
@@ -603,22 +603,22 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>Swagger / Postman (Documentação e Testes de API)</li>
@@ -648,10 +648,10 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>Jira / Trello (Kanban, Scrum)</li>
@@ -684,7 +684,7 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <li>Linux (bash, permissão, cron)</li>
@@ -717,7 +717,7 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </ul>

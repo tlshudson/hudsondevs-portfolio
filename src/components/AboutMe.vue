@@ -22,7 +22,7 @@
           <InfoItem label="Idade" value="21 anos" icon="calendar" />
           <InfoItem label="Nacionalidade" value="Brasileiro" icon="flag" />
           <InfoItem label="Interesses" value="Academia, Esportes, Música(Bateria)" icon="sparkles" />
-          <InfoItem label="Ensino" value="Pós Graduando em" icon="academic-cap" />
+          <InfoItem label="Ensino" value="Pós Graduando em Arquitetura e Desenv. de Sistemas" icon="academic-cap" />
           <InfoItem label="Trabalho" value="Grupo Simão Sarkis" icon="building-office" />
         </ul>
       </div>
