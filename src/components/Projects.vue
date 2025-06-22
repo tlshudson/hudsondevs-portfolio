@@ -9,10 +9,20 @@
         class="bg-gray-700 rounded-xl p-5 hover:shadow-2xl transition-shadow duration-300"
       >
         <img :src="project.cover" alt="Capa do projeto" class="rounded-lg mb-4 object-cover h-40 w-full" />
-        <h3 class="text-xl font-semibold text-indigo-400 mb-2">{{ project.title }}</h3>
+        <a :href="project.link" class="text-xl font-semibold text-indigo-400 mb-2"><u>{{ project.title }}</u></a>
         <p class="text-sm text-gray-400">{{ project.description }}</p>
       </div>
     </div>
+    <div class="mt-10 text-center">
+  <a
+    href="https://github.com/tlshudson"
+    target="_blank"
+    rel="noopener"
+    class="inline-block px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-lg shadow-md transition duration-300"
+  >
+    Ver todos os projetos no GitHub
+  </a>
+</div>
   </section>
 </template>
 
@@ -24,19 +34,22 @@ export default {
     return {
       projects: [
         {
-          title: 'Portfólio Profissional',
-          description: 'Site pessoal com tema dark, responsivo e com animações suaves feito em Vue.js + Tailwind.',
-          cover: 'https://via.placeholder.com/300x200?text=Projeto+1'
+          title: 'Controle de Estoque - Em Andamento',
+          description: 'Interface frontend para o sistema de controle de estoque SEG Estoque, desenvolvida em Vue 3 com Vite.',
+          cover: '/src/assets/sga.png',
+          link: 'https://github.com/tlshudson/SGA-ESTOQUE'
         },
         {
-          title: 'Landing Page Produto X',
-          description: 'Página de vendas com foco em conversão, layout otimizado para mobile.',
-          cover: 'https://via.placeholder.com/300x200?text=Projeto+2'
+          title: 'RoyalPark - Finalizado',
+          description: 'Interface frontend para o sistema de controle de estoque SEG Estoque, desenvolvida em Vue 3 com Vite.',
+          cover: 'src/assets/royalpark.png',
+          link: 'https://github.com/tlshudson/royal_park'
         },
         {
-          title: 'Dashboard de Análises',
-          description: 'Interface interativa com gráficos em tempo real, dados simulados via API fake.',
-          cover: 'https://via.placeholder.com/300x200?text=Projeto+3'
+          title: 'Controle de Pontos - Finalizado',
+          description: 'Projeto construído em conjunto com Udemy.com/Cod3r-cursos. Tem como objetivo automatizar os batimentos de ponto dos funcionários de uma empresa.',
+          cover: '/src/assets/innout.png',
+          link: 'https://github.com/tlshudson/innout2'
         }
       ]
     };
