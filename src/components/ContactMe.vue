@@ -44,7 +44,7 @@
             class="w-full p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400"></textarea>
         </div>
         <button type="submit"
-          class="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-2 rounded font-semibold transition-colors">
+          class="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-2 rounded font-semibold transition-colors">
           Enviar Mensagem
         </button>
         <p v-if="success" class="text-green-400 mt-2">Mensagem enviada com sucesso! 🎉</p>
