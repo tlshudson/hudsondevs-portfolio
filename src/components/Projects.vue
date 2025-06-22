@@ -29,19 +29,19 @@ export default {
         {
           title: 'Controle de Estoque - Em Andamento',
           description: 'Interface frontend para o sistema de controle de estoque SEG Estoque, desenvolvida em Vue 3 com Vite.',
-          cover: '@/assets/sga.png',
+          cover: 'public/sga.png',
           link: 'https://github.com/tlshudson/SGA-ESTOQUE'
         },
         {
           title: 'RoyalPark - Finalizado',
           description: 'Interface frontend para o sistema de controle de estoque SEG Estoque, desenvolvida em Vue 3 com Vite.',
-          cover: '@/assets/royalpark.png',
+          cover: 'public/royalpark.png',
           link: 'https://github.com/tlshudson/royal_park'
         },
         {
           title: 'Controle de Pontos - Finalizado',
           description: 'Projeto construído em conjunto com Udemy.com/Cod3r-cursos. Tem como objetivo automatizar os batimentos de ponto dos funcionários de uma empresa.',
-          cover: '@/assets/innout.png',
+          cover: 'public/innout.png',
           link: 'https://github.com/tlshudson/innout2'
         }
       ]
