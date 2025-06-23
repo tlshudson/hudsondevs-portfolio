@@ -50,7 +50,7 @@
             Baixar Currículo
           </a>
 
-          <a href="#contact"
+          <a href="#ContactMe"
             class="flex items-center gap-2 border border-white text-white px-4 py-2 rounded hover:bg-indigo-800">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round"
@@ -78,3 +78,9 @@ import Projects from '@/components/Projects.vue'
 import ContactMe from '@/components/ContactMe.vue'
 import MatrixRain from '@/components/MatrixRain.vue'
 </script>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>

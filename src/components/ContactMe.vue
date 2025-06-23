@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-800 p-6 md:p-10 rounded-2xl shadow-lg mt-10">
+  <section id = "ContactMe" class="bg-gray-800 p-6 md:p-10 rounded-2xl shadow-lg mt-10">
     <h2 class="text-3xl font-bold text-white mb-4 text-center">Entre em Contato</h2>
     <p class="text-center text-gray-400 mb-8 max-w-2xl mx-auto">
       Deseja fazer algum projeto? Dúvidas sobre algo que desenvolvi? Me manda por e-mail ou use o formulário abaixo para
