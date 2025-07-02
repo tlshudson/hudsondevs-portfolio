@@ -93,7 +93,7 @@
             <div><strong class="text-white">Suporte Técnico em TI N1 · Grupo Simão Sarkis</strong></div>
             <div class="text-sm text-gray-400">Jun 2024 – Out 2024 · Brasília - DF, Presencial</div>
             <div class="text-sm mt-1">Help Desk T.I, atuando via chamados para realizar o suporte técnico de T.I
-              necessário para toda a empresa.
+              necessário para toda a empresa. Gestão de T.I, helpDesk, Linux, DevOps, WebServer, Active Diretory, Windows, Mac, Gestão de Redes, microinformática e manutenção, CPD, DBA, Servidores locais e Switches.
             </div>
           </li>
           <li>
@@ -146,8 +146,10 @@
           </li>
           <li>
             <div><strong class="text-white">Ensino Médio Profissionalizante (Pós-médio)</strong></div>
-            <div class="text-sm text-gray-400">Centro de Ensino Médio Integrado do Gama (CEMI) · Jun 2019 - Jun 2021</div>
-            <div class="text-sm mt-1">Formação técnica com ênfase em desenvolvimento de software e fundamentos de infraestrutura. O curso abordou conceitos e práticas essenciais para a atuação na área de TI.
+            <div class="text-sm text-gray-400">Centro de Ensino Médio Integrado do Gama (CEMI) · Jun 2019 - Jun 2021
+            </div>
+            <div class="text-sm mt-1">Formação técnica com ênfase em desenvolvimento de software e fundamentos de
+              infraestrutura. O curso abordou conceitos e práticas essenciais para a atuação na área de TI.
             </div>
           </li>
           <li>

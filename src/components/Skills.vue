@@ -434,10 +434,10 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
-              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
             <div
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
