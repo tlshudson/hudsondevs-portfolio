@@ -23,13 +23,18 @@
 
             <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="w-8 h-8"
+                  alt="PHP">
+                <span class="text-sm text-white">PHP · Backend para criação de relatórios e funcionalidades</span>
+              </div>
+              <div class="flex items-center gap-2">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" class="w-6 h-6"
-                  alt="Vue.js">
+                alt="Vue.js">
                 <span class="text-sm text-white">Vue.js · Front-end reativo</span>
               </div>
               <div class="flex items-center gap-2">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                  class="w-6 h-6" alt="JavaScript">
+                class="w-6 h-6" alt="JavaScript">
                 <span class="text-sm text-white">JavaScript · Lógica e interações</span>
               </div>
               <div class="flex items-center gap-2">
@@ -37,11 +42,6 @@
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
                   class="w-6 h-6" alt="Tailwind CSS">
                 <span class="text-sm text-white">Tailwind CSS · Estilização rápida</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="w-6 h-6"
-                  alt="Java">
-                <span class="text-sm text-white">APIs REST (Java) · Backend</span>
               </div>
               <div class="flex items-center gap-2">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" class="w-6 h-6"
@@ -56,8 +56,13 @@
             <div class="text-sm text-gray-400">Out 2024 – Jan 2025 · Bahia, Remoto</div>
             <div class="text-sm mt-1">Atuação no desenvolvimento web de um sistema ERP voltado à Controladoria
               Hospitalar, em arquitetura multisserviços/microserviços.</div>
-            <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
-              <div class="flex items-center gap-2">
+              <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="flex items-center gap-2">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="w-8 h-8"
+                    alt="PHP">
+                  <span class="text-sm text-white">PHP · Backend para composição de regras de negócio</span>
+                </div>
+                <div class="flex items-center gap-2">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
                   class="w-6 h-6" alt="Laravel">
                 <span class="text-sm text-white">Laravel · Endpoints e regras de negócio</span>
@@ -93,7 +98,8 @@
             <div><strong class="text-white">Suporte Técnico em TI N1 · Grupo Simão Sarkis</strong></div>
             <div class="text-sm text-gray-400">Jun 2024 – Out 2024 · Brasília - DF, Presencial</div>
             <div class="text-sm mt-1">Help Desk T.I, atuando via chamados para realizar o suporte técnico de T.I
-              necessário para toda a empresa. Gestão de T.I, helpDesk, Linux, DevOps, WebServer, Active Diretory, Windows, Mac, Gestão de Redes, microinformática e manutenção, CPD, DBA, Servidores locais e Switches.
+              necessário para toda a empresa. Gestão de T.I, helpDesk, Linux, DevOps, WebServer, Active Diretory,
+              Windows, Mac, Gestão de Redes, microinformática e manutenção, CPD, DBA, Servidores locais e Switches.
             </div>
           </li>
           <li>
