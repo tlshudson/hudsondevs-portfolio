@@ -7,7 +7,7 @@
       <div>
         <h3 class="text-xl font-semibold text-indigo-400 mb-2">Front-End</h3>
         <ul class="space-y-1">
-          <li>Vue.js</li>
+          <li>React/React Native</li>
           <div class="mt-2 flex items-center gap-x-1">
             <div
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
@@ -73,6 +73,39 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
+          <li>Next.Js</li>
+          <div class="mt-2 flex items-center gap-x-1">
+            <div
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            <div
+              class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
+              role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
           <li>TypeScript</li>
           <div class="mt-2 flex items-center gap-x-1">
             <div
@@ -106,7 +139,7 @@
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden dark:bg-neutral-600 text-xs text-white text-center whitespace-nowrap transition duration-500"
               role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <li>React</li>
+          <li>Vue.Js</li>
           <div class="mt-2 flex items-center gap-x-1">
             <div
               class="w-full h-2.5 flex flex-col justify-center overflow-hidden bg-indigo-600 text-xs text-white text-center whitespace-nowrap transition duration-500"

@@ -7,17 +7,33 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-indigo-100">
         <!-- TEXTO -->
         <p class="prose prose-sm sm:prose-base whitespace-pre-line leading-relaxed text-indigo-100">
-          Meu nome é <strong class="text-white">Hudson Teles</strong>, sou apaixonado por desenvolver aplicações web de
-          alta
-          qualidade com excelente experiência do usuário. Tenho domínio em <strong class="text-white">PHP, Laravel,
-            Vue.js, Node.js, JavaScript, HTML e
-            CSS.</strong><br>
-          Atuei e atuo em diversas plataformas <strong class="text-white">SaaS</strong> voltadas para controladoria de
-          almoxarifado, sistemas financeiros (gestão de
-          regras de negócio, emissão de NF-e, movimentação financeira) e gestão de RH/Departamento Pessoal.
-          Possuo boa performance em ambientes colaborativos, transformando requisitos em soluções escaláveis. Possuo
-          também Experiência em <strong class="text-white">integração de APIs, design responsivo e práticas de código
-          limpo</strong>. Estou sempre aberto a aprender e evoluir.
+          Sou um desenvolvedor Full-Stack com <strong class="text-white">visão arquitetural</strong>, apaixonado por
+          transformar requisitos de negócio em <strong class="text-white">soluções escaláveis e de alta
+            performance</strong>. Minha trajetória inclui atuação em sistemas corporativos críticos (financeiro, RH/DP,
+          hoteleiro) e SaaS, utilizando metodologias ágeis (Scrum/Kanban).
+
+          <strong class="text-white">Minha expertise técnica se concentra em:<br></strong>
+
+          <strong class="text-white">Back-End Robustos:</strong> Sólido domínio em <strong class="text-white">PHP
+            (Laravel)</strong> e <strong class="text-white">JavaScript (NestJS/Node.js)</strong>, focado no
+          desenvolvimento de APIs RESTful e na manutenção de sistemas legados.<br>
+
+          <strong class="text-white">Front-End Moderno:</strong> Proficiência em frameworks reativos como <strong
+            class="text-white">Vue.js (Pinia)</strong> e <strong class="text-white">React/React Native</strong>,
+          garantindo excelente UX e design responsivo.<br>
+
+          <strong class="text-white">Cloud e DevOps:</strong> Experiência prática em ambientes <strong
+            class="text-white">Multi-Cloud (AWS, GCP, OCI)</strong>, com foco em observabilidade, segurança e suporte na
+          manutenção de ambientes de homologação/produção.<br>
+
+          <strong class="text-white">Banco de Dados:</strong> Forte base em bancos de dados relacionais (MySQL,
+          PostgreSQL) e um <strong class="text-white">diferencial no domínio de Oracle Database (PL/SQL)</strong> para
+          consultas complexas e otimização.<br>
+
+          <strong class="text-white">Qualidade de Código:</strong> Prática consolidada em <strong
+            class="text-white">Clean Code</strong>, arquitetura (como Micro-serviços) e adoção de testes automatizados
+          (TDD em Front-end) para garantir a manutenibilidade do sistema.<br> <strong class="text-white">Vamos conversar sobre
+            como posso otimizar seu próximo projeto? 🤝</strong>
         </p>
 
         <!-- LISTA -->

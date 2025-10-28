@@ -13,8 +13,118 @@
         </h3>
         <ul class="space-y-4">
           <li>
+            <div><strong class="text-white">Desenvolvedor Full Stack · Softtek</strong></div>
+            <div class="text-sm text-gray-400">Set 2025 – Atual · Remoto</div>
+            <div class="text-sm mt-2">
+              Atuação Full Stack em sistemas estratégicos do cliente Dr. Consulta, focado na manutenção, evolução e
+              desenvolvimento de novas features em um ambiente de alta complexidade.
+            </div>
+            <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="w-8 h-8"
+                  alt="PHP">
+                <span class="text-sm text-white">
+                  <strong class="font-semibold">PHP Puro</strong> · Manutenção e evolução de sistemas e APIs legadas.
+                </span>
+              </div>
+
+              <div class="flex items-center gap-2">
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+                  class="w-8 h-8" alt="React & React Native">
+                <span class="text-sm text-white">
+                  <strong class="font-semibold">NextJs/React</strong> · Desenvolvimento e manutenção de sites e
+                  aplicativos
+                  móveis.
+                </span>
+              </div>
+
+              <div class="flex items-center gap-2">
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+                  class="w-8 h-8" alt="NestJS">
+                <span class="text-sm text-white">
+                  <strong class="font-semibold">NodeJs</strong> · Backend e desenvolvimento de APIs em arquitetura
+                  moderna.
+                </span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                  class="w-8 h-8" alt="PostgreSQL/MySQL">
+                <span class="text-sm text-white">
+                  <strong class="font-semibold">PostgreSQL/MySQL</strong> · Otimização de consultas complexas e rotinas
+                  de DB.
+                </span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+                  class="w-8 h-8" alt="AWS">
+                <span class="text-sm text-white">
+                  <strong class="font-semibold">AWS</strong> · Gestão de infraestrutura para segurança e escalabilidade.
+                </span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+                  class="w-8 h-8" alt="GCP">
+                <span class="text-sm text-white">
+                  <strong class="font-semibold">GCP</strong> · Suporte a ambientes de produção e observabilidade.
+                </span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-8 h-8"
+                  alt="GitHub">
+                <span class="text-sm text-white">
+                  <strong class="font-semibold">GitHub</strong> · Versionamento de código e CI/CD.
+                </span>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" class="w-8 h-8"
+                  alt="SCRUM / Colaboração">
+                <span class="text-sm text-white">
+                  <strong class="font-semibold">SCRUM/JIRA</strong> · Cerimônias ágeis e gestão de tarefas em equipe.
+                </span>
+              </div>
+            </div>
+
+            <!-- <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="w-8 h-8"
+                  alt="PHP">
+                <span class="text-sm text-white">PHP · Implementação e suporte em diversas frentes, abrangendo sites,
+                  sistemas legados e APIs de backend</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" class="w-6 h-6"
+                  alt="Vue.js">
+                <span class="text-sm text-white">Vue.js · Front-end reativo</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  class="w-6 h-6" alt="JavaScript">
+                <span class="text-sm text-white">JavaScript · Lógica e interações</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                  class="w-6 h-6" alt="Tailwind CSS">
+                <span class="text-sm text-white">Tailwind CSS · Estilização rápida</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" class="w-6 h-6"
+                  alt="Oracle">
+                <span class="text-sm text-white">Oracle DB · PL/SQL, Views</span>
+              </div>
+            </div> -->
+          </li>
+          <li>
             <div><strong class="text-white">Desenvolvedor Junior Full Stack · Grupo Simão Sarkis</strong></div>
-            <div class="text-sm text-gray-400">Out 2024 – Atual · Presencial</div>
+            <div class="text-sm text-gray-400">Out 2024 – Out 2025 · Brasília, Presencial</div>
             <div class="text-sm mt-2">
               Responsável pela manutenção, evolução e desenvolvimento de sistemas internos para o setor hoteleiro,
               atendendo áreas como Compras, Financeiro, RH e Contabilidade. Foco em usabilidade, performance e
