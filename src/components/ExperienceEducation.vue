@@ -6,8 +6,18 @@
       <!-- EXPERIÊNCIA PROFISSIONAL -->
       <div>
         <h3 class="text-2xl font-semibold text-indigo-400 mb-4 flex items-center gap-2">
-          <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-6h13V5a2 2 0 00-2-2H9V1L1 9l8 8v-3z" />
+          <svg
+            class="w-6 h-6 text-indigo-400"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 17v-6h13V5a2 2 0 00-2-2H9V1L1 9l8 8v-3z"
+            />
           </svg>
           Experiência Profissional
         </h3>
@@ -16,78 +26,110 @@
             <div><strong class="text-white">Desenvolvedor Full Stack · Softtek</strong></div>
             <div class="text-sm text-gray-400">Set 2025 – Atual · Remoto</div>
             <div class="text-sm mt-2">
-              Atuação Full Stack em sistemas estratégicos do cliente Dr. Consulta, focado na manutenção, evolução e
-              desenvolvimento de novas features em um ambiente de alta complexidade.
+              Atuação como desenvolvedor Full Stack com foco em Frontend na evolução e sustentação
+              de aplicações de alta escala no setor de saúde (HealthTech). Stack Tecnológica:
+              Desenvolvimento de features complexas utilizando React.js, Next.js, TypeScript e SCSS,
+              com gerenciamento de estado via Zustand/Redux e integração com APIs RESTful.
+              Implementação e manutenção de ferramentas de Analytics e Marketing (Insider/Google),
+              utilizando Design Patterns (Adapter/Strategy) para garantir desacoplamento entre o
+              código de negócio e scripts de terceiros. Atuação crítica na estabilidade do ambiente
+              de desenvolvimento (develop), executando manobras avançadas de Git (Atomic Reverts,
+              Log Filtering). Implementação de testes unitários e de integração para garantir a
+              confiabilidade dos disparos de eventos de transação e navegação.
             </div>
             <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="w-8 h-8"
-                  alt="PHP">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                  class="w-8 h-8"
+                  alt="PHP"
+                />
                 <span class="text-sm text-white">
-                  <strong class="font-semibold">PHP Puro</strong> · Manutenção e evolução de sistemas e APIs legadas.
+                  <strong class="font-semibold">PHP Puro</strong> · Manutenção e evolução de
+                  sistemas e APIs legadas.
                 </span>
               </div>
 
               <div class="flex items-center gap-2">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
-                  class="w-8 h-8" alt="React & React Native">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+                  class="w-8 h-8"
+                  alt="React & React Native"
+                />
                 <span class="text-sm text-white">
-                  <strong class="font-semibold">NextJs/React</strong> · Desenvolvimento e manutenção de sites e
-                  aplicativos
-                  móveis.
+                  <strong class="font-semibold">NextJs/React</strong> · Desenvolvimento e manutenção
+                  de sites e aplicativos móveis.
                 </span>
               </div>
 
               <div class="flex items-center gap-2">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
-                  class="w-8 h-8" alt="NestJS">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+                  class="w-8 h-8"
+                  alt="NestJS"
+                />
                 <span class="text-sm text-white">
-                  <strong class="font-semibold">NodeJs</strong> · Backend e desenvolvimento de APIs em arquitetura
-                  moderna.
+                  <strong class="font-semibold">NodeJs</strong> · Backend e desenvolvimento de APIs
+                  em arquitetura moderna.
                 </span>
               </div>
 
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-                  class="w-8 h-8" alt="PostgreSQL/MySQL">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                  class="w-8 h-8"
+                  alt="PostgreSQL/MySQL"
+                />
                 <span class="text-sm text-white">
-                  <strong class="font-semibold">PostgreSQL/MySQL</strong> · Otimização de consultas complexas e rotinas
-                  de DB.
+                  <strong class="font-semibold">PostgreSQL/MySQL</strong> · Otimização de consultas
+                  complexas e rotinas de DB.
                 </span>
               </div>
 
               <div class="flex items-center gap-2">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
-                  class="w-8 h-8" alt="AWS">
+                  class="w-8 h-8"
+                  alt="AWS"
+                />
                 <span class="text-sm text-white">
-                  <strong class="font-semibold">AWS</strong> · Gestão de infraestrutura para segurança e escalabilidade.
+                  <strong class="font-semibold">AWS</strong> · Gestão de infraestrutura para
+                  segurança e escalabilidade.
                 </span>
               </div>
 
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
-                  class="w-8 h-8" alt="GCP">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+                  class="w-8 h-8"
+                  alt="GCP"
+                />
                 <span class="text-sm text-white">
-                  <strong class="font-semibold">GCP</strong> · Suporte a ambientes de produção e observabilidade.
+                  <strong class="font-semibold">GCP</strong> · Suporte a ambientes de produção e
+                  observabilidade.
                 </span>
               </div>
 
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-8 h-8"
-                  alt="GitHub">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  class="w-8 h-8"
+                  alt="GitHub"
+                />
                 <span class="text-sm text-white">
                   <strong class="font-semibold">GitHub</strong> · Versionamento de código e CI/CD.
                 </span>
               </div>
 
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" class="w-8 h-8"
-                  alt="SCRUM / Colaboração">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+                  class="w-8 h-8"
+                  alt="SCRUM / Colaboração"
+                />
                 <span class="text-sm text-white">
-                  <strong class="font-semibold">SCRUM/JIRA</strong> · Cerimônias ágeis e gestão de tarefas em equipe.
+                  <strong class="font-semibold">SCRUM/JIRA</strong> · Cerimônias ágeis e gestão de
+                  tarefas em equipe.
                 </span>
               </div>
             </div>
@@ -123,100 +165,170 @@
             </div> -->
           </li>
           <li>
-            <div><strong class="text-white">Desenvolvedor Junior Full Stack · Grupo Simão Sarkis</strong></div>
+            <div>
+              <strong class="text-white"
+                >Desenvolvedor Full Stack · Grupo Simão Sarkis</strong
+              >
+            </div>
             <div class="text-sm text-gray-400">Out 2024 – Out 2025 · Brasília, Presencial</div>
             <div class="text-sm mt-2">
-              Responsável pela manutenção, evolução e desenvolvimento de sistemas internos para o setor hoteleiro,
-              atendendo áreas como Compras, Financeiro, RH e Contabilidade. Foco em usabilidade, performance e
-              organização de código, com entregas que otimizam rotinas operacionais.
+              Responsável pela manutenção, evolução e desenvolvimento de sistemas internos para o
+              setor hoteleiro, atendendo áreas como Compras, Financeiro, RH e Contabilidade. Foco em
+              usabilidade, performance e organização de código, com entregas que otimizam rotinas
+              operacionais.
             </div>
 
             <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="w-8 h-8"
-                  alt="PHP">
-                <span class="text-sm text-white">PHP · Backend para criação de relatórios e funcionalidades</span>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                  class="w-8 h-8"
+                  alt="PHP"
+                />
+                <span class="text-sm text-white"
+                  >PHP · Backend para criação de relatórios e funcionalidades</span
+                >
               </div>
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" class="w-6 h-6"
-                  alt="Vue.js">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                  class="w-6 h-6"
+                  alt="Vue.js"
+                />
                 <span class="text-sm text-white">Vue.js · Front-end reativo</span>
               </div>
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                  class="w-6 h-6" alt="JavaScript">
-                <span class="text-sm text-white">JavaScript · Lógica e interações</span>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  class="w-6 h-6"
+                  alt="JavaScript"
+                />
+                <span class="text-sm text-white">JavaScript · Lógica, services, interações</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                  class="w-6 h-6"
+                  alt="JavaScript"
+                />
+                <span class="text-sm text-white">React · Interfaces e aplicações</span>
               </div>
               <div class="flex items-center gap-2">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-                  class="w-6 h-6" alt="Tailwind CSS">
+                  class="w-6 h-6"
+                  alt="Tailwind CSS"
+                />
                 <span class="text-sm text-white">Tailwind CSS · Estilização rápida</span>
               </div>
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" class="w-6 h-6"
-                  alt="Oracle">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
+                  class="w-6 h-6"
+                  alt="Oracle"
+                />
                 <span class="text-sm text-white">Oracle DB · PL/SQL, Views</span>
               </div>
             </div>
           </li>
-          <br>
+          <br />
           <li>
-            <div><strong class="text-white">Estagiário em Desenvolvimento Web Full Stack · LS Tecnologia</strong></div>
+            <div>
+              <strong class="text-white"
+                >Estagiário em Desenvolvimento Web Full Stack · LS Tecnologia</strong
+              >
+            </div>
             <div class="text-sm text-gray-400">Out 2024 – Jan 2025 · Bahia, Remoto</div>
-            <div class="text-sm mt-1">Atuação no desenvolvimento web de um sistema ERP voltado à Controladoria
-              Hospitalar, em arquitetura multisserviços/microserviços. Desenvolvimento de funcionalidades full stack em
-              ambiente SaaS. Integração e comunicação entre serviços independentes em ambiente distribuído.</div>
+            <div class="text-sm mt-1">
+              Atuação no desenvolvimento web de um sistema ERP voltado à Controladoria Hospitalar,
+              em arquitetura multisserviços/microserviços. Desenvolvimento de funcionalidades full
+              stack em ambiente SaaS. Integração e comunicação entre serviços independentes em
+              ambiente distribuído.
+            </div>
             <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="w-8 h-8"
-                  alt="PHP">
-                <span class="text-sm text-white">PHP · Backend para composição de regras de negócio</span>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                  class="w-8 h-8"
+                  alt="PHP"
+                />
+                <span class="text-sm text-white"
+                  >PHP · Backend para composição de regras de negócio</span
+                >
               </div>
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
-                  class="w-6 h-6" alt="Laravel">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+                  class="w-6 h-6"
+                  alt="Laravel"
+                />
                 <span class="text-sm text-white">Laravel · Endpoints e regras de negócio</span>
               </div>
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" class="w-6 h-6"
-                  alt="Vue.js">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                  class="w-6 h-6"
+                  alt="Vue.js"
+                />
                 <span class="text-sm text-white">Vue.js · Componentes reutilizáveis</span>
               </div>
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-                  class="w-6 h-6" alt="PostgreSQL">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                  class="w-6 h-6"
+                  alt="PostgreSQL"
+                />
                 <span class="text-sm text-white">PostgreSQL · Consultas e operações complexas</span>
               </div>
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-6 h-6"
-                  alt="Git">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  class="w-6 h-6"
+                  alt="Git"
+                />
                 <span class="text-sm text-white">Integração entre microsserviços distribuídos</span>
               </div>
               <div class="flex items-center gap-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" class="w-6 h-6"
-                  alt="Slack">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg"
+                  class="w-6 h-6"
+                  alt="Slack"
+                />
                 <span class="text-sm text-white">Slack · Daily e comunicação</span>
               </div>
               <div class="flex items-center space-x-2">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg"
-                  alt="JIRA" class="w-6 h-6">
-                <span class="text-sm text-white">JIRA · Gestão ágil de tarefas e acompanhamento de sprints</span>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg"
+                  alt="JIRA"
+                  class="w-6 h-6"
+                />
+                <span class="text-sm text-white"
+                  >JIRA · Gestão ágil de tarefas e acompanhamento de sprints</span
+                >
               </div>
             </div>
           </li>
           <li>
-            <div><strong class="text-white">Suporte Técnico em TI N1 · Grupo Simão Sarkis</strong></div>
+            <div>
+              <strong class="text-white">Suporte Técnico em TI N1 · Grupo Simão Sarkis</strong>
+            </div>
             <div class="text-sm text-gray-400">Jun 2023 – Out 2024 · Brasília - DF, Presencial</div>
-            <div class="text-sm mt-1">Help Desk T.I, atuando via chamados para realizar o suporte técnico de T.I
-              necessário para toda a empresa. Gestão de T.I, helpDesk, Linux, DevOps, WebServer, Active Diretory,
-              Windows, Mac, Gestão de Redes, microinformática e manutenção, CPD, DBA, Servidores locais e Switches.
+            <div class="text-sm mt-1">
+              Help Desk T.I, atuando via chamados para realizar o suporte técnico de T.I necessário
+              para toda a empresa. Gestão de T.I, helpDesk, Linux, DevOps, WebServer, Active
+              Diretory, Windows, Mac, Gestão de Redes, microinformática e manutenção, CPD, DBA,
+              Servidores locais e Switches.
             </div>
           </li>
           <li>
-            <div><strong class="text-white">Assistente de Operações · Winner Recursos Humanos - Amazon</strong></div>
+            <div>
+              <strong class="text-white"
+                >Assistente de Operações · Winner Recursos Humanos - Amazon</strong
+              >
+            </div>
             <div class="text-sm text-gray-400">Abr 2023 – Jun 2023 · Brasília - DF, Presencial</div>
-            <div class="text-sm mt-1">Auxiliar de Operações prestando serviços temporários para a Id-Logística/AMAZON.
+            <div class="text-sm mt-1">
+              Auxiliar de Operações prestando serviços temporários para a Id-Logística/AMAZON.
               Treinamento no setor de logística.
             </div>
           </li>
@@ -226,65 +338,94 @@
       <!-- EDUCAÇÃO -->
       <div>
         <h3 class="text-2xl font-semibold text-indigo-400 mb-4 flex items-center gap-2">
-          <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0v6m0-6l9-5m-9 5L3 9" />
+          <svg
+            class="w-6 h-6 text-indigo-400"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 14l9-5-9-5-9 5 9 5zm0 0v6m0-6l9-5m-9 5L3 9"
+            />
           </svg>
           Educação
         </h3>
         <ul class="space-y-4">
           <li>
-            <div><strong class="text-white">Curso Superior de Tecnologia (CST) Análise e
-                Desenvolvimento de Sistemas</strong></div>
+            <div>
+              <strong class="text-white"
+                >Curso Superior de Tecnologia (CST) Análise e Desenvolvimento de Sistemas</strong
+              >
+            </div>
             <div class="text-sm text-gray-400">Universidade Paulista - UNIP · 2022 – 2024</div>
-            <div class="text-sm mt-1">Formação com ênfase em Desenvolvimento de Software, unindo fundamentos sólidos de
-              lógica de programação, engenharia de dados e tecnologias emergentes. Atuação em projetos
-              multidisciplinares com aplicações práticas em segurança da informação, arquitetura de dados e machine
-              learning. Experiência no desenvolvimento de apps móveis, com foco em UX/UI..</div>
+            <div class="text-sm mt-1">
+              Formação com ênfase em Desenvolvimento de Software, unindo fundamentos sólidos de
+              lógica de programação, engenharia de dados e tecnologias emergentes. Atuação em
+              projetos multidisciplinares com aplicações práticas em segurança da informação,
+              arquitetura de dados e machine learning. Experiência no desenvolvimento de apps
+              móveis, com foco em UX/UI..
+            </div>
           </li>
           <li>
-            <div><strong class="text-white">Pós-graduação Lato Sensu - Especialização -
-                Arquitetura e Desenvolvimento de Sistemas com ênfase em Padrões de Projeto</strong></div>
+            <div>
+              <strong class="text-white"
+                >Pós-graduação Lato Sensu - Especialização - Arquitetura e Desenvolvimento de
+                Sistemas com ênfase em Padrões de Projeto</strong
+              >
+            </div>
             <div class="text-sm text-gray-400">Instituição GRAN · Jun 2025 - Cursando</div>
-            <div class="text-sm mt-1">A pós-graduação é voltada para que eu possa aprofundar meus conhecimentos em
-              design de software robusto, modular e reutilizável. Com uma abordagem prática e interdisciplinar, o curso
-              abrange temas fundamentais para a construção de soluções escaláveis, com foco na engenharia de software
-              moderna e boas práticas de arquitetura.
+            <div class="text-sm mt-1">
+              A pós-graduação é voltada para que eu possa aprofundar meus conhecimentos em design de
+              software robusto, modular e reutilizável. Com uma abordagem prática e
+              interdisciplinar, o curso abrange temas fundamentais para a construção de soluções
+              escaláveis, com foco na engenharia de software moderna e boas práticas de arquitetura.
             </div>
           </li>
           <li>
-            <div><strong class="text-white">Pós-graduação Lato Sensu - Desenvolvimento Full Stack e Cloud
-                Computing</strong></div>
+            <div>
+              <strong class="text-white"
+                >Pós-graduação Lato Sensu - Desenvolvimento Full Stack e Cloud Computing</strong
+              >
+            </div>
             <div class="text-sm text-gray-400">Instituição GRAN · Jun 2025 - Cursando</div>
-            <div class="text-sm mt-1">A pós-graduação em Desenvolvimento Full Stack e Cloud Computing tem como foco, me
-              auxiliar a desenvolver sistemas robustos e escaláveis utilizando as melhores práticas do mercado e
-              tecnologias modernas em nuvem. A metodologia do curso é baseada em resolução de problemas reais, com forte
-              integração entre teoria e prática.
+            <div class="text-sm mt-1">
+              A pós-graduação em Desenvolvimento Full Stack e Cloud Computing tem como foco, me
+              auxiliar a desenvolver sistemas robustos e escaláveis utilizando as melhores práticas
+              do mercado e tecnologias modernas em nuvem. A metodologia do curso é baseada em
+              resolução de problemas reais, com forte integração entre teoria e prática.
             </div>
           </li>
           <li>
-            <div><strong class="text-white">Ensino Médio Profissionalizante (Pós-médio)</strong></div>
-            <div class="text-sm text-gray-400">Centro de Ensino Médio Integrado do Gama (CEMI) · Jan 2019 - Jan 2022
+            <div>
+              <strong class="text-white">Ensino Médio Profissionalizante (Pós-médio)</strong>
             </div>
-            <div class="text-sm mt-1">Formação técnica com ênfase em desenvolvimento de software e fundamentos de
-              infraestrutura. O curso abordou conceitos e práticas essenciais para a atuação na área de TI.
+            <div class="text-sm text-gray-400">
+              Centro de Ensino Médio Integrado do Gama (CEMI) · Jan 2019 - Jan 2022
+            </div>
+            <div class="text-sm mt-1">
+              Formação técnica com ênfase em desenvolvimento de software e fundamentos de
+              infraestrutura. O curso abordou conceitos e práticas essenciais para a atuação na área
+              de TI.
             </div>
           </li>
           <li>
             <div><strong class="text-white">Graduação em Língua Espanhola</strong></div>
-            <div class="text-sm text-gray-400">Centro Interescolar de Línguas (CIL) · Jan 2021 - Jun 2022</div>
-            <div class="text-sm mt-1">Língua Espanhola e Literaturas de Língua Espanhola
+            <div class="text-sm text-gray-400">
+              Centro Interescolar de Línguas (CIL) · Jan 2021 - Jun 2022
             </div>
+            <div class="text-sm mt-1">Língua Espanhola e Literaturas de Língua Espanhola</div>
           </li>
         </ul>
       </div>
-
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name:
-    'ExperienceEducation',
+  name: 'ExperienceEducation',
 }
 </script>

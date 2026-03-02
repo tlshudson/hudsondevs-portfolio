@@ -17,7 +17,7 @@
             Hudson <span class="text-indigo-300">Teles</span>
           </h2>
           <p class="text-gray-200 text-base md:text-lg leading-relaxed">
-            Full-Stack Developer | PHP/Laravel, React & Next.js Specialist | Multi-Cloud (AWS, GCP, OCI) | Focused on Performance and Innovative Solutions
+            Full-Stack Developer | PHP/Laravel, React & Next.js Specialist | Cloud (Oracle Cloud Infrastructure) | Focused on Performance and Innovative Solutions
           </p>
         </div>
 
