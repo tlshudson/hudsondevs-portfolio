@@ -51,7 +51,7 @@
       </div>
     </div>
 
-    <div class="relative mx-auto w-60 md:w-full md:max-w-xs">
+    <div class="relative mx-auto w-64 md:w-full md:max-w-sm">
       <div
         class="absolute -inset-3 rounded-[2rem] bg-indigo-500/15 blur-2xl"
         aria-hidden="true"
