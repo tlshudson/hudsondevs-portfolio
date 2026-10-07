@@ -166,9 +166,7 @@
           </li>
           <li>
             <div>
-              <strong class="text-white"
-                >Desenvolvedor Full Stack · Grupo Simão Sarkis</strong
-              >
+              <strong class="text-white">Desenvolvedor Full Stack · Grupo Simão Sarkis</strong>
             </div>
             <div class="text-sm text-gray-400">Out 2024 – Out 2025 · Brasília, Presencial</div>
             <div class="text-sm mt-2">

@@ -17,7 +17,7 @@ import {
   FlagIcon,
   SparklesIcon,
   AcademicCapIcon,
-  BuildingOfficeIcon
+  BuildingOfficeIcon,
 } from '@heroicons/vue/24/outline'
 
 const props = defineProps({
@@ -25,17 +25,17 @@ const props = defineProps({
   value: String,
   icon: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 })
 
 const iconMap = {
   'map-pin': MapPinIcon,
-  'calendar': CalendarIcon,
-  'flag': FlagIcon,
-  'sparkles': SparklesIcon,
+  calendar: CalendarIcon,
+  flag: FlagIcon,
+  sparkles: SparklesIcon,
   'academic-cap': AcademicCapIcon,
-  'building-office': BuildingOfficeIcon
+  'building-office': BuildingOfficeIcon,
 }
 
 const iconComponent = computed(() => iconMap[props.icon] || MapPinIcon)
