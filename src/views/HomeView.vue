@@ -23,7 +23,7 @@
 
         <!-- LINKS DE REDES -->
         <div class="flex flex-wrap justify-center gap-4 mt-2">
-          <a href="https://github.com/tlshudson" target="_blank" class="text-white hover:text-indigo-300">
+          <a href="https://github.com/tlshudson" target="_blank" rel="noopener noreferrer" class="text-white hover:text-indigo-300">
             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
               <path
                 d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.263.82-.583v-2.256c-3.338.726-4.033-1.416-4.033-1.416-.546-1.38-1.333-1.747-1.333-1.747-1.09-.745.082-.73.082-.73 1.205.085 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.305 3.492.997.108-.775.42-1.306.763-1.606-2.665-.303-5.467-1.333-5.467-5.931 0-1.31.468-2.38 1.235-3.22-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.98-.399 3-.404 1.02.005 2.043.138 3 .404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.921.431.372.815 1.104.815 2.222v3.293c0 .32.218.698.825.58C20.565 21.796 24 17.297 24 12c0-6.63-5.37-12-12-12z">
@@ -31,7 +31,7 @@
             </svg>
           </a>
 
-          <a href="https://www.linkedin.com/in/hudson-teles-381a451ab/" target="_blank"
+          <a href="https://www.linkedin.com/in/hudson-teles-381a451ab/" target="_blank" rel="noopener noreferrer"
             class="text-white hover:text-indigo-300">
             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
               <path
@@ -60,7 +60,7 @@
           </a>
 
           <a href="https://wa.me/5561985559961?text=Ol%C3%A1%2C%20gostaria%20de%20oferecer%20uma%20oferta%20para%20desenvolvedor%20de%20software"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             class="flex items-center gap-2 border border-white text-white px-4 py-2 rounded hover:bg-green-600 transition-colors">
             <svg class="w-5 h-5" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
               <path
@@ -74,7 +74,7 @@
     </section>
 
     <AboutMe />
-    <Skills />
+    <SkillsSection />
     <Projects />
     <ExperienceEducation />
     <ContactMe />
@@ -83,7 +83,7 @@
 
 <script setup>
 import AboutMe from '@/components/AboutMe.vue'
-import Skills from '@/components/Skills.vue'
+import SkillsSection from '@/components/SkillsSection.vue'
 import ExperienceEducation from '@/components/ExperienceEducation.vue'
 import Projects from '@/components/Projects.vue'
 import ContactMe from '@/components/ContactMe.vue'

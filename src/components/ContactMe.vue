@@ -1,5 +1,5 @@
 <template>
-  <section id = "ContactMe" class="bg-gray-800 p-6 md:p-10 rounded-2xl shadow-lg mt-10">
+  <section id="ContactMe" class="bg-gray-800 p-6 md:p-10 rounded-2xl shadow-lg mt-10">
     <h2 class="text-3xl font-bold text-white mb-4 text-center">Entre em Contato</h2>
     <p class="text-center text-gray-400 mb-8 max-w-2xl mx-auto">
       Deseja fazer algum projeto? Dúvidas sobre algo que desenvolvi? Me manda por e-mail ou use o formulário abaixo para
@@ -12,11 +12,11 @@
         <a href="mailto:hudsonteles00@gmail.com" class="text-indigo-400 hover:underline break-all">
           📧 hudsonteles00@gmail.com
         </a>
-        <a href="https://www.linkedin.com/in/hudson-teles-381a451ab/" target="_blank"
+        <a href="https://www.linkedin.com/in/hudson-teles-381a451ab/" target="_blank" rel="noopener noreferrer"
           class="text-indigo-400 hover:underline">
           🔗 LinkedIn: Hudson Teles
         </a>
-        <a href="https://github.com/tlshudson" target="_blank" class="text-indigo-400 hover:underline">
+        <a href="https://github.com/tlshudson" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:underline">
           💻 GitHub: Hudson Gustavo
         </a>
       </div>
@@ -24,23 +24,23 @@
       <!-- FORMULÁRIO -->
       <form @submit.prevent="handleSubmit" class="w-full md:w-2/3 space-y-4">
         <div>
-          <label class="block text-sm text-gray-300 mb-1">Nome</label>
-          <input v-model="form.name" type="text" required
+          <label for="contact-name" class="block text-sm text-gray-300 mb-1">Nome</label>
+          <input id="contact-name" name="name" autocomplete="name" v-model="form.name" type="text" required
             class="w-full p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400" />
         </div>
         <div>
-          <label class="block text-sm text-gray-300 mb-1">E-mail</label>
-          <input v-model="form.email" type="email" required
+          <label for="contact-email" class="block text-sm text-gray-300 mb-1">E-mail</label>
+          <input id="contact-email" name="email" autocomplete="email" v-model="form.email" type="email" required
             class="w-full p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400" />
         </div>
         <div>
-          <label class="block text-sm text-gray-300 mb-1">Título</label>
-          <input v-model="form.title" required
+          <label for="contact-title" class="block text-sm text-gray-300 mb-1">Título</label>
+          <input id="contact-title" name="title" v-model="form.title" required
             class="w-full p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400" />
         </div>
         <div>
-          <label class="block text-sm text-gray-300 mb-1">Mensagem</label>
-          <textarea v-model="form.message" rows="4" required
+          <label for="contact-message" class="block text-sm text-gray-300 mb-1">Mensagem</label>
+          <textarea id="contact-message" name="message" v-model="form.message" rows="4" required
             class="w-full p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400"></textarea>
         </div>
         <button type="submit"
@@ -55,7 +55,7 @@
 </template>
 
 <script>
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
 export default {
   name: 'ContactMe',

@@ -1,41 +1,34 @@
-# hudsondevs
+# Portfólio — Hudson Teles
 
-This template should help get you started developing with Vue 3 in Vite.
+Portfólio profissional publicado em https://hudsondev.netlify.app/.
 
-## Recommended IDE Setup
+## Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3 com `<script setup>` e Vite
+- Tailwind CSS 4
+- EmailJS (`@emailjs/browser`) para o formulário de contato
+- Vitest e Vue Test Utils
 
-## Customize configuration
+## Estrutura
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```text
+src/
+├── App.vue                 # Raiz da aplicação
+├── views/HomeView.vue      # Página única com todas as seções
+├── components/             # Seções (Sobre, Tech Stack, Projetos, Experiência, Contato)
+│   └── __tests__/          # Testes unitários
+└── assets/                 # Estilos e imagens processadas pelo Vite
+public/                     # Arquivos servidos sem processamento (currículo, capas de projetos)
 ```
 
-### Compile and Hot-Reload for Development
+## Comandos
 
 ```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+npm install         # instala as dependências
+npm run dev         # servidor de desenvolvimento
+npm run build       # build de produção em dist/
+npm run preview     # serve o build localmente
+npm run test:unit   # testes unitários
+npm run lint        # ESLint com correção automática
+npm run format      # Prettier em src/
 ```
