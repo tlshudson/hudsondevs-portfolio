@@ -51,17 +51,17 @@
       </div>
     </div>
 
-    <div class="relative mx-auto w-56 md:w-full md:max-w-xs">
+    <div class="relative mx-auto w-60 md:w-full md:max-w-xs">
       <div
         class="absolute -inset-3 rounded-[2rem] bg-indigo-500/15 blur-2xl"
         aria-hidden="true"
       ></div>
       <img
-        src="@/assets/DeveloperHudson.jpeg"
+        src="@/assets/hudson-teles.jpg"
         alt="Foto de Hudson Teles"
         width="320"
-        height="320"
-        class="relative aspect-square w-full rounded-[2rem] object-cover ring-1 ring-white/15"
+        height="400"
+        class="relative aspect-[4/5] w-full rounded-[2rem] object-cover object-top ring-1 ring-white/15"
       />
     </div>
   </section>
