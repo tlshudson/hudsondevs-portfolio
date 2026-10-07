@@ -1,148 +1,194 @@
 <template>
-  <section id="ContactMe" class="bg-gray-800 p-6 md:p-10 rounded-2xl shadow-lg mt-10">
-    <h2 class="text-3xl font-bold text-white mb-4 text-center">Entre em Contato</h2>
-    <p class="text-center text-gray-400 mb-8 max-w-2xl mx-auto">
-      Deseja fazer algum projeto? Dúvidas sobre algo que desenvolvi? Me manda por e-mail ou use o
-      formulário abaixo para falar comigo.
-    </p>
+  <section id="contato" class="py-20">
+    <SectionHeading
+      eyebrow="Contato"
+      title="Vamos conversar"
+      description="Tem um projeto, uma vaga ou uma dúvida sobre algo que desenvolvi? Envie uma mensagem pelo formulário ou fale comigo diretamente."
+    />
 
-    <div class="flex flex-col md:flex-row justify-center items-start gap-10">
-      <!-- LINKS -->
-      <div class="flex flex-col gap-4 w-full md:w-1/3">
-        <a href="mailto:hudsonteles00@gmail.com" class="text-indigo-400 hover:underline break-all">
-          📧 hudsonteles00@gmail.com
-        </a>
-        <a
-          href="https://www.linkedin.com/in/hudson-teles-381a451ab/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-indigo-400 hover:underline"
-        >
-          🔗 LinkedIn: Hudson Teles
-        </a>
-        <a
-          href="https://github.com/tlshudson"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-indigo-400 hover:underline"
-        >
-          💻 GitHub: Hudson Gustavo
-        </a>
-      </div>
+    <div class="grid gap-10 md:grid-cols-[1fr_1.6fr]">
+      <ul class="space-y-3 text-sm">
+        <li v-for="channel in channels" :key="channel.label">
+          <a
+            :href="channel.href"
+            :target="channel.external ? '_blank' : undefined"
+            :rel="channel.external ? 'noopener noreferrer' : undefined"
+            class="group flex items-center gap-3 rounded-xl border border-white/10 bg-surface/80 p-4 transition-colors hover:border-indigo-300/40"
+          >
+            <component
+              :is="channel.icon"
+              v-bind="channel.props"
+              class="h-5 w-5 shrink-0 text-indigo-300"
+            />
+            <span>
+              <span class="block font-medium text-white">{{ channel.label }}</span>
+              <span class="block break-all text-zinc-400">{{ channel.value }}</span>
+            </span>
+          </a>
+        </li>
+      </ul>
 
-      <!-- FORMULÁRIO -->
-      <form @submit.prevent="handleSubmit" class="w-full md:w-2/3 space-y-4">
-        <div>
-          <label for="contact-name" class="block text-sm text-gray-300 mb-1">Nome</label>
-          <input
-            id="contact-name"
-            name="name"
-            autocomplete="name"
-            v-model="form.name"
-            type="text"
-            required
-            class="w-full p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400"
-          />
+      <form class="space-y-4" novalidate @submit.prevent="handleSubmit">
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label for="contact-name" :class="labelClass">Nome</label>
+            <input
+              id="contact-name"
+              v-model.trim="form.name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              required
+              :class="fieldClass"
+            />
+          </div>
+          <div>
+            <label for="contact-email" :class="labelClass">E-mail</label>
+            <input
+              id="contact-email"
+              v-model.trim="form.email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+              :class="fieldClass"
+            />
+          </div>
         </div>
         <div>
-          <label for="contact-email" class="block text-sm text-gray-300 mb-1">E-mail</label>
-          <input
-            id="contact-email"
-            name="email"
-            autocomplete="email"
-            v-model="form.email"
-            type="email"
-            required
-            class="w-full p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400"
-          />
-        </div>
-        <div>
-          <label for="contact-title" class="block text-sm text-gray-300 mb-1">Título</label>
+          <label for="contact-title" :class="labelClass">Assunto</label>
           <input
             id="contact-title"
+            v-model.trim="form.title"
             name="title"
-            v-model="form.title"
+            type="text"
             required
-            class="w-full p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            :class="fieldClass"
           />
         </div>
         <div>
-          <label for="contact-message" class="block text-sm text-gray-300 mb-1">Mensagem</label>
+          <label for="contact-message" :class="labelClass">Mensagem</label>
           <textarea
             id="contact-message"
+            v-model.trim="form.message"
             name="message"
-            v-model="form.message"
-            rows="4"
+            rows="5"
             required
-            class="w-full p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            :class="fieldClass"
           ></textarea>
         </div>
-        <button
-          type="submit"
-          class="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-2 rounded font-semibold transition-colors"
-        >
-          Enviar Mensagem
-        </button>
-        <p v-if="success" class="text-green-400 mt-2">Mensagem enviada com sucesso! 🎉</p>
-        <p v-if="error" class="text-red-400 mt-2">Erro ao enviar a mensagem. Tente novamente. ❌</p>
+
+        <div class="flex flex-wrap items-center gap-4">
+          <button
+            type="submit"
+            :disabled="status === 'sending'"
+            class="rounded-lg bg-indigo-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-indigo-400 active:scale-[0.98] disabled:cursor-wait disabled:opacity-60"
+          >
+            {{ status === 'sending' ? 'Enviando…' : 'Enviar mensagem' }}
+          </button>
+          <p v-if="feedback" role="status" class="text-sm" :class="feedback.tone">
+            {{ feedback.text }}
+          </p>
+        </div>
       </form>
     </div>
   </section>
 </template>
 
-<script>
+<script setup>
+import { computed, reactive, ref } from 'vue'
+
 import emailjs from '@emailjs/browser'
+import { EnvelopeIcon } from '@heroicons/vue/24/outline'
 
-export default {
-  name: 'ContactMe',
-  data() {
+import BrandIcon from '@/components/BrandIcon.vue'
+import SectionHeading from '@/components/SectionHeading.vue'
+import { contacts } from '@/data/profile'
+
+const EMAILJS_SERVICE_ID = 'service_2pdfhgh'
+const EMAILJS_TEMPLATE_ID = 'template_u6r26gj'
+const EMAILJS_PUBLIC_KEY = '_OAWQii4qk_UUDSE3'
+const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
+const labelClass = 'mb-1.5 block text-sm text-zinc-300'
+const fieldClass =
+  'w-full rounded-lg border border-white/10 bg-ink/80 px-3 py-2.5 text-white placeholder-zinc-500 transition-colors focus:border-indigo-300/60 focus:outline-none'
+
+const channels = [
+  {
+    label: 'E-mail',
+    value: contacts.email,
+    href: `mailto:${contacts.email}`,
+    icon: EnvelopeIcon,
+    props: {},
+    external: false,
+  },
+  {
+    label: 'LinkedIn',
+    value: 'Hudson Teles',
+    href: contacts.linkedin,
+    icon: BrandIcon,
+    props: { name: 'linkedin' },
+    external: true,
+  },
+  {
+    label: 'GitHub',
+    value: 'tlshudson',
+    href: contacts.github,
+    icon: BrandIcon,
+    props: { name: 'github' },
+    external: true,
+  },
+  {
+    label: 'WhatsApp',
+    value: 'Conversar agora',
+    href: contacts.whatsapp,
+    icon: BrandIcon,
+    props: { name: 'whatsapp' },
+    external: true,
+  },
+]
+
+const form = reactive({ name: '', email: '', title: '', message: '' })
+const status = ref('idle')
+const validationError = ref('')
+
+const feedback = computed(() => {
+  if (validationError.value) return { text: validationError.value, tone: 'text-amber-300' }
+  if (status.value === 'success')
+    return { text: 'Mensagem enviada. Respondo assim que possível.', tone: 'text-emerald-300' }
+  if (status.value === 'error')
     return {
-      form: {
-        name: '',
-        email: '',
-        title: '',
-        message: '',
-      },
-      success: false,
-      error: false,
+      text: `Não consegui enviar agora. Tente novamente ou escreva para ${contacts.email}.`,
+      tone: 'text-red-300',
     }
-  },
-  methods: {
-    handleSubmit() {
-      const serviceID = 'service_2pdfhgh'
-      const templateID = 'template_u6r26gj'
-      const userID = '_OAWQii4qk_UUDSE3'
+  return null
+})
 
-      emailjs
-        .send(
-          serviceID,
-          templateID,
-          {
-            from_name: this.form.name,
-            reply_to: this.form.email,
-            subject: this.form.title,
-            message: this.form.message,
-          },
-          userID,
-        )
-        .then(() => {
-          this.success = true
-          this.error = false
-          this.form.name = ''
-          this.form.email = ''
-          this.form.title = ''
-          this.form.message = ''
-          alert('Mensagem enviada com sucesso! 🎉')
-          setTimeout(() => {
-            location.reload()
-          }, 3000)
-        })
-        .catch((error) => {
-          console.error('Erro ao enviar:', error)
-          this.error = true
-          alert('Erro ao enviar a mensagem. Tente novamente. ❌')
-        })
-    },
-  },
+async function handleSubmit() {
+  validationError.value = ''
+  if (!form.name || !form.title || !form.message) {
+    validationError.value = 'Preencha todos os campos.'
+    return
+  }
+  if (!EMAIL_PATTERN.test(form.email)) {
+    validationError.value = 'Informe um e-mail válido.'
+    return
+  }
+
+  status.value = 'sending'
+  try {
+    await emailjs.send(
+      EMAILJS_SERVICE_ID,
+      EMAILJS_TEMPLATE_ID,
+      { from_name: form.name, reply_to: form.email, subject: form.title, message: form.message },
+      { publicKey: EMAILJS_PUBLIC_KEY },
+    )
+    Object.assign(form, { name: '', email: '', title: '', message: '' })
+    status.value = 'success'
+  } catch (error) {
+    console.error('EmailJS send failed', error)
+    status.value = 'error'
+  }
 }
 </script>

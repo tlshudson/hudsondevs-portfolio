@@ -2,26 +2,27 @@ import { describe, expect, it } from 'vitest'
 import { mount } from '@vue/test-utils'
 
 import SkillsSection from '../SkillsSection.vue'
+import { featuredSkills, skillGroups } from '@/data/profile'
 
 describe('SkillsSection', () => {
   const wrapper = mount(SkillsSection)
 
-  it('renders every skill category', () => {
-    const titles = wrapper.findAll('h3').map((h3) => h3.text())
-    expect(titles).toEqual([
-      'Front-End',
-      'Back-End',
-      'Banco de Dados',
-      'Noções DevOps e Infraestrutura',
-      'Outras Ferramentas e Habilidades',
-    ])
+  it('lists the featured technologies first', () => {
+    const featured = wrapper.find('[aria-label="Principais tecnologias"]').findAll('li')
+    expect(featured.map((item) => item.text())).toEqual(featuredSkills)
   })
 
-  it('fills one segment per level out of ten', () => {
-    const bar = wrapper.find('[aria-label="Vue.Js"]')
-    expect(bar.attributes('aria-valuenow')).toBe('4')
-    expect(bar.findAll('div')).toHaveLength(10)
-    expect(bar.findAll('.bg-indigo-600')).toHaveLength(4)
-    expect(bar.findAll('.bg-neutral-600')).toHaveLength(6)
+  it('renders every skill group as readable text', () => {
+    expect(wrapper.findAll('dt').map((dt) => dt.text())).toEqual(skillGroups.map((g) => g.title))
+    expect(wrapper.text()).toContain('LangGraph')
+    expect(wrapper.find('[role="progressbar"]').exists()).toBe(false)
+  })
+
+  it('highlights featured skills inside their groups', () => {
+    const backend = wrapper.find('[aria-label="Back-end"]')
+    const symfony = backend.findAll('li').find((li) => li.text() === 'Symfony')
+    const fastapi = backend.findAll('li').find((li) => li.text() === 'FastAPI')
+    expect(symfony.classes()).toContain('text-indigo-100')
+    expect(fastapi.classes()).not.toContain('text-indigo-100')
   })
 })

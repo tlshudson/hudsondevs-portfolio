@@ -1,9 +1,9 @@
 <template>
-  <li class="flex items-start gap-2">
-    <component :is="iconComponent" class="w-5 h-5 text-white mt-1" />
+  <li class="flex items-start gap-3">
+    <component :is="iconComponent" class="mt-0.5 h-5 w-5 shrink-0 text-indigo-300" />
     <div>
-      <p class="text-xs font-bold text-white sm:text-sm">{{ label }}:</p>
-      <p class="text-xs text-gray-200 sm:text-sm">{{ value }}</p>
+      <p class="text-sm font-medium text-white">{{ label }}</p>
+      <p class="text-sm text-zinc-400">{{ value }}</p>
     </div>
   </li>
 </template>
@@ -11,31 +11,18 @@
 <script setup>
 import { computed } from 'vue'
 
-import {
-  MapPinIcon,
-  CalendarIcon,
-  FlagIcon,
-  SparklesIcon,
-  AcademicCapIcon,
-  BuildingOfficeIcon,
-} from '@heroicons/vue/24/outline'
+import { AcademicCapIcon, MapPinIcon, SparklesIcon } from '@heroicons/vue/24/outline'
 
 const props = defineProps({
-  label: String,
-  value: String,
-  icon: {
-    type: String,
-    required: true,
-  },
+  label: { type: String, required: true },
+  value: { type: String, required: true },
+  icon: { type: String, required: true },
 })
 
 const iconMap = {
   'map-pin': MapPinIcon,
-  calendar: CalendarIcon,
-  flag: FlagIcon,
   sparkles: SparklesIcon,
   'academic-cap': AcademicCapIcon,
-  'building-office': BuildingOfficeIcon,
 }
 
 const iconComponent = computed(() => iconMap[props.icon] || MapPinIcon)
